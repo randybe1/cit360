@@ -31,14 +31,12 @@ public class shoppingCartView implements Serializable{
 	   String nameListIs = nameList.nextLine();
 		return nameListIs;
 }	
-
 	public String addingStuff(){
 	   System.out.println("What items to add? ");
 	   Scanner nameItem = new Scanner(System.in);	
 	   String nameItemIs = nameItem.nextLine();
 		return nameItemIs;
 }
-
 	public String numOfItem(){
 	   System.out.println("How many? ");
 	   Scanner itemNum = new Scanner(System.in);	
